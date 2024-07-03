@@ -1,0 +1,36 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "assetlinks",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def assetlinks():\n    assetlinks_data = [\n        {\n            \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n            \"target\": {\n                \"namespace\": \"android_app\",\n                \"package_name\": \"com.example.deep_link\",\n                \"sha256_cert_fingerprints\": [\n                    \"95:98:95:92:1F:92:28:BE:FD:C5:AC:5A:49:75:64:42:B8:B3:99:7B:91:97:D6:BE:06:B1:2E:5A:E7:E9:BC:9D\"\n                ]",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/.well-known/assetlinks.json', methods=['GET'])\ndef assetlinks():\n    assetlinks_data = [\n        {\n            \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n            \"target\": {\n                \"namespace\": \"android_app\",\n                \"package_name\": \"com.example.deep_link\",\n                \"sha256_cert_fingerprints\": [",
+        "detail": "server",
+        "documentation": {}
+    }
+]
